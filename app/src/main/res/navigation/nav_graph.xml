@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/levelFragment">
+    <fragment
+        android:id="@+id/levelFragment"
+        android:name="com.example.cardgame.ui.level.LevelFragment"
+        android:label="fragment_level"
+        tools:layout="@layout/fragment_level" >
+        <action
+            android:id="@+id/action_levelFragment_to_levelOneFragment"
+            app:destination="@id/levelOneFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_levelTwoFragment"
+            app:destination="@id/levelTwoFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_levelThreeFragment"
+            app:destination="@id/levelThreeFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_levelFoureFragment"
+            app:destination="@id/levelFoureFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_levelfiveFragment"
+            app:destination="@id/levelfiveFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_levelSixFragment"
+            app:destination="@id/levelSixFragment" />
+        <action
+            android:id="@+id/action_levelFragment_to_scoresFragment"
+            app:destination="@id/scoresFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/levelOneFragment"
+        android:name="com.example.cardgame.ui.levelone.LevelOneFragment"
+        android:label="fragment_level_one"
+        tools:layout="@layout/fragment_level_one" />
+    <fragment
+        android:id="@+id/levelTwoFragment"
+        android:name="com.example.cardgame.ui.leveltwo.LevelTwoFragment"
+        android:label="fragment_level_two"
+        tools:layout="@layout/fragment_level_two" />
+    <fragment
+        android:id="@+id/levelThreeFragment"
+        android:name="com.example.cardgame.ui.levelthree.LevelThreeFragment"
+        android:label="fragment_level_three"
+        tools:layout="@layout/fragment_level_three" />
+    <fragment
+        android:id="@+id/levelFoureFragment"
+        android:name="com.example.cardgame.ui.levelfoure.LevelFoureFragment"
+        android:label="fragment_level_foure"
+        tools:layout="@layout/fragment_level_foure" />
+    <fragment
+        android:id="@+id/levelfiveFragment"
+        android:name="com.example.cardgame.ui.levelfive.LevelfiveFragment"
+        android:label="fragment_levelfive"
+        tools:layout="@layout/fragment_levelfive" />
+    <fragment
+        android:id="@+id/levelSixFragment"
+        android:name="com.example.cardgame.ui.levelsix.LevelSixFragment"
+        android:label="fragment_level_six"
+        tools:layout="@layout/fragment_level_six" />
+    <fragment
+        android:id="@+id/scoresFragment"
+        android:name="com.example.cardgame.ui.scores.ScoresFragment"
+        android:label="fragment_scores"
+        tools:layout="@layout/fragment_scores" />
+</navigation>

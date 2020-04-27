@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CardGame</string>
+
+    <string name="selectlevel">Select the level to play</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="foure">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="showscore">Show my score</string>
+    <string name="score">Score</string>
+    <string name="restart">Restart</string>
+    <string name="otherlevel">Start Other Level</string>
+    <string name="finished">You finished this level</string>
+    <string name="level">Level</string>
+    <string name="finishedlevel">Finished</string>
+</resources>
